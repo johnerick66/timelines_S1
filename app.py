@@ -1,10 +1,10 @@
 import streamlit as st
 st.set_page_config(page_title="Sesion 2 | ISIL", layout="centered")
-st.title("Modelo de Predicción LSTM para Abastecimiento Periódico | Timeline")
-st.write("Autor: Marcelo Martin Herrera Yoplack| BCP")
-st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia de la evolución del modelo LSTM.")
+st.title("Modelos de pronóstico de la volatilidad del tipo de cambio"")
+st.write("Autor: John Erick Argandoña Acosta| BCP")
+st.write("Interactúa con la barra deslizante para explorar los hitos más importantes de modelos de cambio.")
 # URLs de imágenes en GitHub
-base_url = "https://raw.githubusercontent.com/Marcelo-cell/timelines_s1/main/timeline_images/"
+base_url = "https://raw.githubusercontent.com/johnerick66/timelines_s1/main/timeline_images/"
 imagenes = {
    1: base_url + "timeline1.png",
    2: base_url + "timeline2.png",
@@ -23,12 +23,12 @@ opcion = st.slider(
 # Mostrar imagen según slider
 st.image(imagenes[opcion], use_container_width=True)
 if opcion == 1:
- st.info("1997 - Invención del Modelo LSTM")
+ st.info("1986: Primeros modelos neuronales logran predecir el USD/GBP mejor que métodos estadísticos.")
 if opcion == 2:
- st.info("2010 – Deeplearning era")
+ st.info("2005: Bancos adoptan SVM y ML para mejorar pronósticos del USD/EUR en alta volatilidad.")
 if opcion == 3:
- st.info("2015 - Crecimiento de Bigdata y Hardware")
+ st.info("2014: Surgen modelos LSTM que mejoran la predicción intradía del USD/JPY.")
 if opcion == 4:
- st.info("2017 - Consolidación de Deeplearning")
+ st.info("2019: Modelos híbridos IA-macroeconomía fortalecen forecasting de pares como EUR/USD.")
 if opcion == 5:
- st.info("2018 - Optimización del Abastecimiento Periódico")
+ st.info("2023: Transformers generativos integran noticias y datos de mercado para anticipar shocks cambiarios.")
