@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(page_title="Sesion 2 | ISIL", layout="centered")
-st.title("Modelos de pronóstico de la volatilidad del tipo de cambio"")
+st.title("Modelos de pronóstico de la volatilidad del tipo de cambio")
 st.write("Autor: John Erick Argandoña Acosta| BCP")
 st.write("Interactúa con la barra deslizante para explorar los hitos más importantes de modelos de cambio.")
 # URLs de imágenes en GitHub
